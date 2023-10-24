@@ -311,15 +311,30 @@ Document all the prototypes and iterations you have designed and worked on! Agai
 * "Looks like": shows how the device should look, feel, sit, weigh, etc.
 * "Works like": shows what the device can do
 * "Acts like": shows how a person would interact with the device
-* Draft sketches (moved from earlier parts)
-  - <img alt="color time" src="Game_1.png" width="400">
+* Draft sketches (moved from Part D.)
+  - <img src="Game_1.png" width="400">
+  - <img src="Game_2.png" width="400">
+  - <img src="Game_3.png" width="400">
+  - <img src="Game_4.png" width="400">
+  - <img src="Game_5.png" width="400">
 * The architecture
   - Beforehand, I tried cardboard and small paper boxes to host the joystick, the OLED display, and the sensor separately.
   - A full architecture might bring more fun.
   - I reduild a part of a Lego model. Specifically, designed some space using the Lego blocks to host the sensors and devices to prototype the physical game field.
-  - To let the game make more sense, the joystick, together with the player, hide behind the forte.
-    <img alt="color time" src="View_1.png" width="400">
+  - The Player will stand behind the forte
+    
+    <img src="View_1.png" width="400">
+  - The sensor is placed at the gate to detect the intruders.
+    
+    <img src="View_3.png" width="400">
   - The OLED display is placed at a monitor hold.
+    
+    <img src="View_2.png" width="400">
+    <img src="View_5.png" width="400">
+  - To let the game make more sense, the joystick, together with the player, hide behind the forte.
+    
+    <img src="View_4.png" width="400">
+    <img src="View_6.png" width="400">
 
 * The design diagram
 
@@ -336,4 +351,6 @@ Document all the prototypes and iterations you have designed and worked on! Agai
   - Different members of the intruding army has different ability. Be careful. Someone takes much longer to defeat.
     
 [Video Demo Link](https://drive.google.com/file/d/1wu_QEWYs669UqLiSY8HTz5xt0zNIm1aZ/view?usp=sharing)
+
+Code file: defend.py
 
