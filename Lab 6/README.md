@@ -97,10 +97,24 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
 1. Under a social context, take the system as a shortcut to send a "code word" to your friends. A "code word" might mean "change the signal" please.
+   
+   <img width="300" alt="Screenshot 2023-11-17 at 1 46 30 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/dbaf60e2-403b-4d60-ba51-61dc37c7c137">
+
 2. An easier version of the two-person mode of Nintendo game Cup Head.
+
+  <img width="300" alt="Screenshot 2023-11-17 at 1 46 13 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/95900408-2cd8-4ad0-a74a-3de88a0a7fb6">
+
 3. Tic-tac-toe
-4. A communication system that helps send your request to your roommate when you're in your room and don't want to get out of bed.
+
+   <img width="300" alt="Screenshot 2023-11-17 at 1 46 21 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/f2c28dd1-5533-4b5a-b886-d0c1eb541241">
+
+4. A communication system that respond to the request from your roommate when you're in your room and don't want to get out of bed.
+
+   <img width="300" alt="Screenshot 2023-11-17 at 1 46 39 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/1bcb84fd-2c06-412e-8513-a0883689c448">
+
 5. A controller of an investment game. Game rule: A starts with $10. A sends B $X. B will have $3X (triple). B sends back $Y as they want to.
+
+   <img width="300" alt="Screenshot 2023-11-17 at 1 46 34 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/8ebd91e4-5fb0-42e0-811d-468b36720cea">
 
 ### Part C
 ### Streaming a Sensor
@@ -172,22 +186,46 @@ The result of showing color
 
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
-**\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+**\*\*\*1. Explain your design\*\*\*** 
+
 The purpose of the design is to offer two music buddies an convinient way to study cords progressions and improvise collaboratively with the device.
 (Piano keyboards are not always available. Not to mention two co-exsiting keyboards.) The physical user interface will also make the chords usable in a more intuitive and novice-friendly way.
 
-**\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
+**\*\*\*2. Diagram the architecture of the system.\*\*\*** 
 
 <img src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/d0ea7d41-aa03-422f-b02f-4c2476ec9fd7" width=300>
 
-**\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+The following will take the 1-4-5 (C-F-G) progression as an example.
+
+The music box concept diagram:
+
+<img width="300" alt="Screenshot 2023-11-17 at 12 53 47 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/006c7f66-fe69-48ac-bc27-42e41dd389ba">
+
+The concept is to make music instrument interface "malleable" and suitable for people from different music backgrounds (e.g. traning in different instruments such as guitar and piano, or no music training at all). For example, piano people might be more used to parallel keyboard, while guitar people hold the instrument in a totally different way. The position of each key can be changed to make the music box more friendly to different types of hand postures.
+
+"Guitar-version arrangement"
+
+<img width="300" alt="Screenshot 2023-11-17 at 12 53 55 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/eb05d317-97cd-4736-9835-ea0d07db7a5c">
+<img width="300" alt="Screenshot 2023-11-17 at 12 58 45 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/eecba2b5-9bfd-4949-bd4e-eb9a7727aba7">
+
+
+"Piano-version arrangement"
+
+<img width="300" alt="Screenshot 2023-11-17 at 12 54 00 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/f6675b85-1e25-4b1b-89c5-11897e3518f2">
+<img width="300" alt="Screenshot 2023-11-17 at 12 59 18 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/549cc0d8-4f39-4fe7-bb5d-5d9635ee7924">
+
+
+
+**\*\*\*3. Build a working prototype of the system.\*\*\*** 
+
+Process:
+Communicate over the MQTT Explorer example:
 
 <img width="600" alt="Screenshot 2023-11-16 at 11 30 31 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/59734bde-5082-407d-8d1b-1823e022c646">
 
-Process:
-Communicate over the MQTT Explorer.
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
+[Video Link](https://drive.google.com/file/d/16Ds7MKKXLaF9_PG5947COl0ZWBNEkKR4/view?usp=sharing)
 <!--**\*\*\*5. BONUS (Wendy didn't approve this so you should probably ignore it)\*\*\*** get the whole class to run your code and make your distributed system BIGGER.-->
 
