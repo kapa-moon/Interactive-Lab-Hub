@@ -96,6 +96,12 @@ Once connected, you should be able to see all the messages under the IDD topic. 
 
 **\*\*\*Consider how you might use this messaging system on interactive devices, and draw/write down 5 ideas here.\*\*\***
 
+1. Under a social context, take the system as a shortcut to send a "code word" to your friends. A "code word" might mean "change the signal" please.
+2. An easier version of the two-person mode of Nintendo game Cup Head.
+3. Tic-tac-toe
+4. A communication system that helps send your request to your roommate when you're in your room and don't want to get out of bed.
+5. A controller of an investment game. Game rule: A starts with $10. A sends B $X. B will have $3X (triple). B sends back $Y as they want to.
+
 ### Part C
 ### Streaming a Sensor
 
@@ -116,8 +122,17 @@ Plug in the capacitive sensor board with the Qwiic connector. Use the alligator 
  ```
 
 **\*\*\*Include a picture of your setup here: what did you see on MQTT Explorer?\*\*\***
+<img width="500" alt="Screenshot 2023-11-17 at 12 54 38 AM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/c3be6a6b-22c3-4d20-b4ff-18c8243192c8">
+
 
 **\*\*\*Pick another part in your kit and try to implement the data streaming with it.\*\*\***
+
+I used the button and implemented the data streaming following the capacitor sensor example. Here is what shows on the MQTT Explorer.
+
+<img width="600" alt="button" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/51dc3aed-3e9d-4a12-8602-413a74ab2b6b">
+
+
+<img width="600" alt="Screenshot 2023-11-16 at 10 49 07 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/3f49258e-cde2-4fc6-bd70-2e18a3186530">
 
 
 ### Part D
@@ -146,7 +161,10 @@ By running the script, wou will find the two squares on the display. Half is sho
 
 (A message from the previous TA, Ilan: I was not super careful with handling the loop so you may need to press more than once if the timing isn't quite right. Also, I haven't load-tested it so things might just immediately break when everyone pushes the button at once.)
 
-**\*\*\*Can you set up the script that can read the color anyone else publish and display it on your screen?\*\*\***
+The result of showing color
+
+<img width="300" alt="color" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/9cd88e7b-abc3-417d-8816-b7b413b8485a">
+
 
 
 ### Part E
@@ -155,10 +173,19 @@ By running the script, wou will find the two squares on the display. Half is sho
 Find at least one class (more are okay) partner, and design a distributed application together based on the exercise we asked you to do in this lab.
 
 **\*\*\*1. Explain your design\*\*\*** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+The purpose of the design is to offer two music buddies an convinient way to study cords progressions and improvise collaboratively with the device.
+(Piano keyboards are not always available. Not to mention two co-exsiting keyboards.) The physical user interface will also make the chords usable in a more intuitive and novice-friendly way.
 
 **\*\*\*2. Diagram the architecture of the system.\*\*\*** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
+<img src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/d0ea7d41-aa03-422f-b02f-4c2476ec9fd7" width=300>
+
 **\*\*\*3. Build a working prototype of the system.\*\*\*** Do think about the user interface: if someone encountered these bananas somewhere in the wild, would they know how to interact with them? Should they know what to expect?
+
+<img width="600" alt="Screenshot 2023-11-16 at 11 30 31 PM" src="https://github.com/kapa-moon/Interactive-Lab-Hub/assets/100012430/59734bde-5082-407d-8d1b-1823e022c646">
+
+Process:
+Communicate over the MQTT Explorer.
 
 **\*\*\*4. Document the working prototype in use.\*\*\*** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
