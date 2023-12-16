@@ -4,12 +4,6 @@
 
 \*\***Yuewen Yang**\*\*
 
-In the original stage production of Peter Pan, Tinker Bell was represented by a darting light created by a small handheld mirror off-stage, reflecting a little circle of light from a powerful lamp. Tinkerbell communicates her presence through this light to the other characters. See more info [here](https://en.wikipedia.org/wiki/Tinker_Bell). 
-
-There is no actor that plays Tinkerbell--her existence in the play comes from the interactions that the other characters have with her.
-
-For lab this week, we draw on this and other inspirations from theatre to stage interactions with a device where the main mode of display/output for the interactive device you are designing is lighting. You will plot the interaction with a storyboard, and use your computer and a smartphone to experiment with what the interactions will look and feel like. 
-
 
 
 ## Prep
@@ -18,25 +12,6 @@ For lab this week, we draw on this and other inspirations from theatre to stage 
 1. Read about Git [here](https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F).
 2. Set up your own Github "Lab Hub" repository to keep all you work in record by [following these instructions](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Fall/readings/Submitting%20Labs.md).
 3. Set up the README.md for your Hub repository (for instance, so that it has your name and points to your own Lab 1) and [learn how to](https://guides.github.com/features/mastering-markdown/) organize and post links to your submissions on your README.md so we can find them easily.
-
-
-### For this lab, you will need:
-1. Paper
-2. Markers/ Pens
-3. Scissors
-4. Smart Phone -- The main required feature is that the phone needs to have a browser and display a webpage.
-5. Computer -- We will use your computer to host a webpage which also features controls.
-6. Found objects and materials -- You will have to costume your phone so that it looks like some other devices. These materials can include doll clothes, a paper lantern, a bottle, human clothes, a pillow case, etc. Be creative!
-
-### Deliverables for this lab are: 
-1. 7 Storyboards
-1. 3 Sketches/photos of costumed devices
-1. Any reflections you have on the process
-1. Video sketch of 3 prototyped interactions
-1. Submit the items above in the lab1 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same from each person in the group.
-
-### The Report
-This README.md page is edited to include the work I have done (the deliverables mentioned above)
 
 ## Lab Overview
 For this assignment, I am going to:
@@ -112,8 +87,6 @@ I used "Tinkerbelle" as the remote control medium. I am using both mobile and we
 \*\***Include your first attempts at recording the set-up video here.**\*\*
 
 [Set up the device](https://drive.google.com/file/d/157xPfE7pw92zmc6tsob7avzLjFEKHsQj/view?usp=sharing)
-
-\*\***Show the follow-up work here.**\*\*
 
 
 \*\***Future work**\*\*
